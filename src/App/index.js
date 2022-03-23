@@ -8,12 +8,7 @@ import { HomePage } from './hompage';
 function App() {
   return (
     <TodoProvider>
-      <Router>
-        <Routes>
-          <Route index element={<HomePage/>}></Route>
-          <Route path='/home'element={<AppUi/>}/>
-        </Routes>
-      </Router>
+      <AppUi/>
     </TodoProvider>
   );
 }
