@@ -9,7 +9,7 @@ function HomePage(){
         <Title/>
         <div className="goHome">
             <p>Organiza tu día, crea una lista de tus cosas por hacer y mantén un orden en tus actividades.</p>
-            <Link to='/home' className="buttonHome">
+            <Link to='./home' className="buttonHome">
                 Comenzar
             </Link>
         </div>
